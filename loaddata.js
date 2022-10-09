@@ -1,19 +1,19 @@
 function loaddata() {
 
     setTimeout( function () {
-        document.getElementById('bg').style.backgroundImage="url(fingetth.gif)";
+        document.getElementById('bg').style.backgroundImage="url(./fingerth.gif)";
     }, 1);
     setTimeout( function () {
-        document.getElementById('bg').style.backgroundImage="url(boxnotopen.gif)";
+        document.getElementById('bg').style.backgroundImage="url(./boxnotopen.gif)";
     }, 2000);
     setTimeout( function () {
-        document.getElementById('bg').style.backgroundImage="url(boxopenbutblack.gif)";
+        document.getElementById('bg').style.backgroundImage="url(./boxopenbutblack.gif)";
     }, 4000);
     setTimeout( function () {
-        document.getElementById('bg').style.backgroundImage="url(whatisblack.gif)";
+        document.getElementById('bg').style.backgroundImage="url(./whatisblack.gif)";
     }, 6000);
     setTimeout( function () {
-        document.getElementById('bg').style.backgroundImage="url(itsheart.gif)";
+        document.getElementById('bg').style.backgroundImage="url(./itsheart.gif)";
     }, 8000);
 
     setTimeout( function () {
