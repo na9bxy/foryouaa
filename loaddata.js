@@ -5,19 +5,19 @@ function loaddata() {
     }, 1);
     setTimeout( function () {
         document.getElementById('bg').style.backgroundImage="url(boxnotopen.gif)";
-    }, 1500);
+    }, 2000);
     setTimeout( function () {
         document.getElementById('bg').style.backgroundImage="url(boxopenbutblack.gif)";
-    }, 3000);
+    }, 4000);
     setTimeout( function () {
         document.getElementById('bg').style.backgroundImage="url(whatisblack.gif)";
-    }, 4500);
+    }, 6000);
     setTimeout( function () {
         document.getElementById('bg').style.backgroundImage="url(itsheart.gif)";
-    }, 6000);
+    }, 8000);
 
     setTimeout( function () {
         window.location.replace("main.html")
-    }, 7500);
+    }, 10000);
 
 }
